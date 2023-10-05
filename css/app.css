@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  background-image: url("/img/main-background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-section__heros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.main-section__hero {
+  max-height: 100%;
+  height: 720px;
+}
+
+.main-section__boxes {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+}
+
+.main-section__boxes-glow {
+  mix-blend-mode: screen;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.main-section__boxes-left {
+  position: absolute;
+  mix-blend-mode: multiply;
+  width: 400px;
+  max-height: 100%;
+  left: 0;
+}
+
+.main-section__boxes-right {
+  position: absolute;
+  mix-blend-mode: multiply;
+  width: 400px;
+  max-height: 100%;
+  right: 0;
+}
+
+.main-section__items {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+.main-section__logo {
+  width: 325px;
+  height: 275px;
+  margin-top: -15px;
+}
+
+.main-section__items-box {
+  width: 620px;
+  margin-top: -75px;
+  margin-left: -50px;
+}
+
+.main-section__title {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+}
+
+.main-section__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.main-section__bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("/img/bottom-layer.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100%;
+  max-height: 150px;
+}
+
+.main-section__bottom-layer {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.second-section {
+  padding: 40px 20px;
+  background-image: url("/img/background-wall.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.second-section__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-section__image {
+  background-image: url("/img/Ellipse1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-section__image img {
+  width: 100%;
+  max-width: 435px;
+  height: 900px;
+}
+
+.second-section__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #000;
+}
+
+.second-section__title {
+  font-family: "Roboto Condensed";
+  color: #416df4;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.second-section__table {
+  margin: 30px 0;
+}
+
+.second-section__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+
+.second-section__price-details {
+  margin-left: -130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 60px;
+}
+
+.second-section__price-details p {
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.second-section__price-details button {
+  background: #fcff00;
+  padding: 12px 40px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0 1px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.table__head {
+  font-size: 12px;
+  color: #671d00;
+  border: 1px solid #671d00;
+  margin: 0 5px 10px;
+  padding: 2px 10px;
+}
+
+.table__tr {
+  margin: 0;
+  padding: 0;
+}
+
+.table__tr div {
+  padding: 2px 10px;
+  color: #fff;
+  height: 75px;
+}
+
+.table__tr .table__td-img {
+  border: 1px solid #671d00;
+  border-right: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table__tr .table__td-img img {
+  width: 64px;
+  height: 64px;
+}
+
+.table__tr .table__td-title {
+  border: 1px solid #671d00;
+  border-left: none;
+  border-right: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  max-width: 200px;
+}
+
+.table__tr .table__td-text {
+  border: 1px solid #671d00;
+  border-left: none;
+  border-right: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table__tr td:last-child .table__td-text {
+  border-right: 1px solid #671d00;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+
+.grow-line {
+  width: 100%;
+  position: relative;
+  bottom: -40px;
+}
+
+.grow-line img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 300px;
+}
